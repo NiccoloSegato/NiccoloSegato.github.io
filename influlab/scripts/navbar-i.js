@@ -1,3 +1,10 @@
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    document.getElementsByClassName('NavBar')[0].style.backgroundColor = "#FAFBFF";
+}
+else {
+    console.log('Desktop');
+}
+
 window.addEventListener('scroll', function(e) {
     let body = document.documentElement;
     let navbar = document.getElementsByClassName('NavBar')[0];
