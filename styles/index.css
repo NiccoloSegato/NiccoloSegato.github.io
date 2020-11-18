@@ -12,6 +12,10 @@
     font-family: Finador;
     src: url("../assets/fonts/Finador-Regular.otf");
 }
+body {
+    background-color: #FAFBFF;
+    color: #464646;
+}
 p {
     font-size: 18px;
 }
@@ -89,4 +93,17 @@ p {
     width: 100%;
     top: 0px;
     z-index: -100;
+}
+
+@media screen and (max-width: 800px) {
+    #background {
+        display: none;
+    }
+    .main-content {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .main-container {
+        width: 100%;
+    }
 }

@@ -31,6 +31,10 @@ body {
     z-index: 100;
     /*background-color: rgba(0, 76, 255, 0.1);*/
     background-color: #FAFBFF;
+    -webkit-transition: background-color 500ms ease, box-shadow 500ms ease;
+    -moz-transition: background-color 500ms ease, box-shadow 500ms ease;
+    -o-transition: background-color 500ms ease, box-shadow 500ms ease;
+    transition: background-color 500ms ease, box-shadow 500ms ease;
 }
 
 .logo {
