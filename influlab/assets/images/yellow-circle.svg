@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.31" cy="0.876" r="0.505" gradientTransform="translate(1.572 1.7) rotate(135) scale(1 1.685)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff9d00"/>
+      <stop offset="1" stop-color="#fcd471"/>
+    </radialGradient>
+    <filter id="Ellisse_1" x="0" y="0" width="110" height="110" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#565656" flood-opacity="0.435"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellisse_1)">
+    <circle id="Ellisse_1-2" data-name="Ellisse 1" cx="40" cy="40" r="40" transform="translate(15 12)" fill="url(#radial-gradient)"/>
+  </g>
+</svg>
