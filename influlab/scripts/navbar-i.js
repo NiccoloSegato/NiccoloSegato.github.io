@@ -10,3 +10,7 @@ window.addEventListener('scroll', function(e) {
         navbar.style.backgroundColor = "#FAFBFF";
     }
 });
+
+function toggle(x) {
+    x.classList.toggle("change");
+}

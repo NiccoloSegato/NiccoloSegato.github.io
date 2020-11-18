@@ -9,3 +9,7 @@ window.addEventListener('scroll', function(e) {
         navbar.style.boxShadow = "0 1px 15px rgba(216, 216, 216, 0.473)";
     }
 });
+
+function toggle(x) {
+    x.classList.toggle("change");
+}
