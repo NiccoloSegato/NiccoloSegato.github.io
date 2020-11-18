@@ -102,8 +102,35 @@ p {
     .main-content {
         flex-direction: column-reverse;
         width: 100%;
+        margin: 0px;
     }
     .main-container {
         width: 100%;
+    }
+    .main-content img {
+        margin-right: 0;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 0px;
+    }
+    #counter h1 {
+        font-size: 30px;
+    }
+    .words h1 {
+        font-size: 40px;
+        background-image: linear-gradient(transparent, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF);
+    }
+    #yellow-rec-counter {
+        width: 140px;
+        bottom: -30px;
+        left: 100px;
+    }
+    .words {
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+        margin-top: -70px;
+        z-index: 5;
+        padding: 0;
     }
 }
