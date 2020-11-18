@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Finador;
+    src: url("../assets/fonts/Finador-Medium.otf");
+    font-weight: medium;
+}
+@font-face {
+    font-family: Finador;
+    src: url("../assets/fonts/Finador-Bold.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: Finador;
+    src: url("../assets/fonts/Finador-Regular.otf");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Finador;
+    background-color: #FAFBFF;
+    color: #464646;
+}
+p {
+    font-size: 16px;
+}
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.main-container {
+    position: relative;
+    margin-top: 126px !important;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.field {
+    background-color: white;
+    box-shadow: 0px 1px 15px rgba(216, 216, 216, 0.342);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 26px;
+    height: 58px;
+    margin-top: 38px;
+}
+.field p {
+    margin-right: 16px;
+    font-weight: bold;
+    height: 18px;
+    margin-top: 20px;
+    width: 150px;
+    text-align: right;
+}
+.field input {
+    border: none;
+}
+.divider {
+    background-color: rgb(163, 163, 163);
+    width: 1px;
+    height: 36px;
+    margin-right: 16px;
+    margin-top: 11px;
+}
+.fields {
+    margin-bottom: 80px;
+}
+#instagram-absolute {
+    position: absolute;
+    width: 800px;
+    left: -300px;
+    top: 500px;
+}
+#tiktok-absolute {
+    position: absolute;
+    width: 700px;
+    right: -200px;
+    top: 800px;
+}
+.global-btn-b {
+    background-color: #2945FF;
+    border-radius: 25px;
+    padding: 15px 100px;
+    border: none;
+    font-family: Finador;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.title-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.title-social img {
+    margin-top: 10px;
+    margin-right: 5px;
+    height: 43px;
+}
+
+@media screen and (max-width: 1100px) {
+    .main-container {
+        width: 90%;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .field {
+        flex-direction: column;
+        height: 100px;
+    }
+    .field p {
+        width: fit-content;
+        text-align: left;
+    }
+    .divider {
+        display: none;
+    }
+    #instagram-absolute {
+        position: absolute;
+        width: 400px;
+        left: -300px;
+        top: 1200px;
+    }
+    #tiktok-absolute {
+        position: absolute;
+        width: 300px;
+        right: -80px;
+        top: 1700px;
+    }
+}

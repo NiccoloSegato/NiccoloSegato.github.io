@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.31" cy="0.876" r="0.505" gradientTransform="translate(1.572 1.7) rotate(135) scale(1 1.685)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4e00ff"/>
+      <stop offset="1" stop-color="#7c71fc"/>
+    </radialGradient>
+    <filter id="Ellisse_3" x="0" y="0" width="110" height="110" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#88b1ff" flood-opacity="0.435"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Raggruppa_16" data-name="Raggruppa 16" transform="translate(-658 -1442)">
+    <g transform="matrix(1, 0, 0, 1, 658, 1442)" filter="url(#Ellisse_3)">
+      <circle id="Ellisse_3-2" data-name="Ellisse 3" cx="40" cy="40" r="40" transform="translate(15 12)" fill="url(#radial-gradient)"/>
+    </g>
+    <g id="icons8-instagram_1_" data-name="icons8-instagram (1)" transform="translate(689.5 1470.5)">
+      <path id="Tracciato_4" data-name="Tracciato 4" d="M16.5,41.5h15a10,10,0,0,0,10-10v-15a10,10,0,0,0-10-10h-15a10,10,0,0,0-10,10v15A10,10,0,0,0,16.5,41.5Z" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Tracciato_5" data-name="Tracciato 5" d="M24,15.5A8.5,8.5,0,1,0,32.5,24,8.5,8.5,0,0,0,24,15.5Z" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Tracciato_6" data-name="Tracciato 6" d="M34,12a2,2,0,1,0,2,2A2,2,0,0,0,34,12Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

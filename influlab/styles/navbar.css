@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Finador;
+    src: url("../assets/fonts/Finador-Medium.otf");
+    font-weight: medium;
+}
+@font-face {
+    font-family: Finador;
+    src: url("../assets/fonts/Finador-Bold.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: Finador;
+    src: url("../assets/fonts/Finador-Regular.otf");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Finador;
+    background-color: #F3F3F3;
+}
+
+.NavBar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 76px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    /*background-color: rgba(0, 76, 255, 0.1);*/
+    background-color: #FAFBFF;
+    -webkit-transition: background-color 500ms ease, box-shadow 500ms ease;
+    -moz-transition: background-color 500ms ease, box-shadow 500ms ease;
+    -o-transition: background-color 500ms ease, box-shadow 500ms ease;
+    transition: background-color 500ms ease, box-shadow 500ms ease;
+}
+
+.logo {
+    width: 360px;
+    height: 56px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo a {
+    height: 100%;
+    width: 360px;
+}
+.logo img {
+    height: 100%;
+    margin-left: 100px;
+}
+.menu {
+    display: block;
+    list-style-type: none;
+    padding-top: 10px;
+    margin-right: 30px;
+}
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding-top: 15px;
+    margin-right: 50px;
+}
+.menu li {
+    margin-left: 50px;
+}
+.menu a {
+    text-decoration: none;
+    color: #464646;
+    font-weight: bold;
+}
+.purple-lil-btn {
+    background-color: #4D01D4;
+    color: white;
+    border-radius: 18px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Rubik;
+    text-decoration: none;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 10px;
+}
+.purple-no-btn {
+    font-family: Rubik;
+    text-decoration: none;
+    font-weight: bold;
+    color: #4D01D4;
+    margin-right: 20px;
+}
+
+#plus {
+    width: 50px;
+    height: 50px;
+    margin-top: -8px;
+}
+.marginer {
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 500px;
+}
+
+.universal-btn {
+    box-shadow: 0 1px 15px rgba(216, 216, 216, 0.473);
+    border-color: rgb(204, 204, 204);
+    margin-right: 8px;
+    padding: 10px;
+    border-radius: 20px;
+    background: none;
+    color: inherit;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
