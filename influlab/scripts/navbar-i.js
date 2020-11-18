@@ -1,8 +1,7 @@
+let ismobile = false;
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     document.getElementsByClassName('NavBar')[0].style.backgroundColor = "#FAFBFF";
-}
-else {
-    console.log('Desktop');
+    ismobile = true;
 }
 
 window.addEventListener('scroll', function(e) {
@@ -10,7 +9,10 @@ window.addEventListener('scroll', function(e) {
     let navbar = document.getElementsByClassName('NavBar')[0];
     if(body.scrollTop === 0) {
         navbar.style.boxShadow = "0 0 0 transparent";
-        navbar.style.backgroundColor = "rgba(0, 76, 255, 0.1)";
+        if(!ismobile){
+            navbar.style.backgroundColor = "rgba(0, 76, 255, 0.1)";
+        }
+        
     }
     else {
         navbar.style.boxShadow = "0 1px 15px rgba(216, 216, 216, 0.473)";
