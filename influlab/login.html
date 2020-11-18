@@ -1,10 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Registrati - Influlab</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/login.css">
 </head>
 <body>
+    <!-- NAVBAR -->
+    <div class="NavBar">
+        <div class="logo">
+            <a href="https://influlab.it">
+                <img src="assets/images/logo.svg" alt="Logo" />
+            </a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">INFLUENCER</a></li>
+                <li><a href="index.html">CONTATTI</a></li>
+                <li><a href="login.html">ACCEDI</a></li>
+            </ul>
+        </div>
+        <div class="sandwitch">
+            <div class="container" onclick="toggle(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+        </div>
+    </div>
+    <script src="scripts/navbar.js"></script>
+
+    <form class="login fields">
+        <h1>Login</h1>
+        <p>Entra nella tua dashboard per visualizzare il tuo profilo e i messaggi</p>
+
+        <div class="field">
+            <p>E-mail</p>
+            <div class="divider"></div>
+            <input type="email" placeholder="Inserisci la tua email" name="email">
+        </div>
+        <div class="field">
+            <p>E-Password</p>
+            <div class="divider"></div>
+            <input type="password" placeholder="inserisci la password" name="password">
+        </div>
+        <input type="submit" value="LOGIN" class="global-btn-b">
+    </form>
 
 </body>
 </html>
