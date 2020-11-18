@@ -1,3 +1,6 @@
+h2 {
+    margin-bottom: 0px;
+}
 .dashboard {
     width: 70%;
     margin: auto;
@@ -108,12 +111,14 @@
 }
 .messages {
     background-color: white;
+    margin-bottom: 50px;
     border-radius: 20px;
     padding: 12px;
+    box-shadow: 0px 1px 15px rgba(216, 216, 216, 0.342);
 }
 .message {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: left;
     border-bottom: 1px solid rgb(221, 221, 221);
     text-align: left;
@@ -129,6 +134,30 @@
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 14px;
+}
+.sender-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.sender-container img {
+    height: 26px;
+    width: 26px;
+    margin-top: 11px;
+    border-radius: 13px;
+    margin-right: 6px;
+    object-fit: cover;
+}
+#latest {
+    border-bottom: none;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.messaggio {
+    margin-top: 0px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -158,5 +187,26 @@
     }
     #yellow-circle {
         right: 0;
+    }
+    .message {
+        flex-direction: column;
+    }
+    .divider {
+        display: none;
+    }
+    .oggetto {
+        margin: 0;
+    }
+    .messaggio {
+        margin-top: 8px;
+    }
+    .sender {
+        font-size: 18px;
+    }
+    .sender-container img {
+        margin-top: 13px;
+    }
+    .top {
+        flex-direction: column;
     }
 }
