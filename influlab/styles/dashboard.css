@@ -106,6 +106,30 @@
     right: 10px;
     z-index: -5;
 }
+.messages {
+    background-color: white;
+    border-radius: 20px;
+    padding: 12px;
+}
+.message {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    text-align: left;
+}
+.oggetto {
+    color: #414141;
+    margin-right: 10px;
+}
+.divider {
+    background-color: rgb(163, 163, 163);
+    width: 1px;
+    height: 21px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 14px;
+}
 
 @media screen and (max-width: 1100px) {
     .dashboard {
@@ -133,6 +157,6 @@
         left: -30px;
     }
     #yellow-circle {
-        right: -30px;
+        right: 0;
     }
 }
