@@ -80,6 +80,10 @@ h1 {
     right: -200px;
     top: 800px;
 }
+.absolute {
+    position: absolute;
+    width: 50px;
+}
 .global-btn-b {
     background-color: #2945FF;
     border-radius: 25px;
