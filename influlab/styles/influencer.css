@@ -10,6 +10,7 @@
 .chart {
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 .row {
     display: flex;
@@ -28,6 +29,17 @@
     border-radius: 15px;
     z-index: 50;
     background-color: white;
+}
+.global-btn-b {
+    background-color: #2945FF;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: none;
+    font-family: Finador;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
 }
 .person img, .personal-person img {
     width: 100%;
