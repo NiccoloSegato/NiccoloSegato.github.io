@@ -126,7 +126,7 @@ p {
     }
     .words h1 {
         font-size: 40px;
-        background-image: linear-gradient(rgba(0,0,0,0), #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF);
+        background-image: linear-gradient(rgba(255,255,255,0), #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF);
     }
     #yellow-rec-counter {
         width: 140px;
