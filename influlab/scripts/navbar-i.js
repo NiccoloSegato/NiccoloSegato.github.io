@@ -5,6 +5,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 }
 
 window.addEventListener('scroll', function(e) {
+    removeToggle();
     let body = document.documentElement;
     let navbar = document.getElementsByClassName('NavBar')[0];
     if(body.scrollTop === 0) {
@@ -22,4 +23,11 @@ window.addEventListener('scroll', function(e) {
 
 function toggle(x) {
     x.classList.toggle("change");
+    document.getElementById('sandwitch-menu').classList.toggle("novis");
+    document.getElementById('sandwitch-menu').classList.toggle("vis");
+}
+function removeToggle() {
+    document.getElementsByClassName('container')[0].classList.remove("change");
+    document.getElementById('sandwitch-menu').classList.remove("vis");
+    document.getElementById('sandwitch-menu').classList.add("novis");
 }
