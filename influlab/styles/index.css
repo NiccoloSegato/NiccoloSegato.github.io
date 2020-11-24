@@ -149,6 +149,7 @@ p {
     }
     .counter h1 {
         font-size: 25px !important;
+        background-image: none !important;
     }
     .counter p {
         font-size: 16px !important;
