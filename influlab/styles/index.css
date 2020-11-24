@@ -155,7 +155,7 @@ p {
     }
     .words h1 {
         font-size: 40px;
-        background-image: linear-gradient(transparent, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF);
+        background-image: linear-gradient(rgba(255,255,255,0), #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF);
         letter-spacing: -1px;
     }
     #yellow-rec-counter {
