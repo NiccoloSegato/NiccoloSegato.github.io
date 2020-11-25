@@ -1,14 +1,12 @@
 body {
-    padding: 0;
     margin: 0;
     font-family: Finador;
     background-color: #FAFBFF;
     color: #464646;
 }
 .container {
-    margin: auto;
     width: 70%;
-    padding-top: 120px;
+    margin-left: 15%;
     text-align: center;
 }
 .container h1 {
@@ -29,4 +27,20 @@ body {
     font-size: 15px;
     color: white;
     text-decoration: none;
+}
+#space {
+    margin-top: 120px;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .container h1 {
+        font-size: 40px;
+    }
+    .global-btn-b {
+        padding: 15px 50px;
+    }
 }
