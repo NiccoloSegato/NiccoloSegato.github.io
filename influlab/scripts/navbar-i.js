@@ -31,3 +31,7 @@ function removeToggle() {
     document.getElementById('sandwitch-menu').classList.remove("vis");
     document.getElementById('sandwitch-menu').classList.add("novis");
 }
+
+function tucano() {
+    document.getElementById('tucano-box').classList.toggle('tuc-vis');
+}
