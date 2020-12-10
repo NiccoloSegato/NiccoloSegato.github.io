@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <title>Login - Influlab</title>
+    <title>Controlla la tua email - Influlab</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles/navbar.css">
-    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/confirmation.css">
     <link rel="icon" href="assets/images/favicon.ico">
 </head>
 <body>
@@ -41,24 +41,12 @@
         </ul>
     </div>
 
-    <form class="login fields" action="dashboard.html">
-        <h1>Login</h1>
-        <p>Entra nella tua dashboard per visualizzare il tuo profilo e i messaggi</p>
-
-        <div class="field">
-            <p>E-mail</p>
-            <div class="divider"></div>
-            <input type="email" placeholder="Inserisci la tua email" name="email">
-        </div>
-        <div class="field">
-            <p>Password</p>
-            <div class="divider"></div>
-            <input type="password" placeholder="inserisci la password" name="password">
-        </div>
-        <input type="submit" value="LOGIN" class="global-btn-b">
-        <p></p>
-        <a href="forgot.html">Non ricordi la password?</a>
-    </form>
-
+    <!-- MAIN SECTOR -->
+    <p id="space"></p>
+    <div class="container">
+        <h1>Controlla la tua posta</h1>
+        <p>Ti abbiamo inviato una email per recuperare la password. Clicca il link nel messaggio e segui i passaggi!</p>
+        <a class="global-btn-b" href="login.html">TORNA AL LOGIN</a>
+    </div>
 </body>
 </html>

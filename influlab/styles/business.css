@@ -1,0 +1,138 @@
+.wrapper {
+    margin-top: 150px;
+}
+.content {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.content h1 {
+    font-size: 60px;
+}
+.absolute {
+    position: absolute;
+    width: 50px;
+}
+.infograph {
+    border-radius: 10px;
+    box-shadow: 0px 1px 15px rgba(216, 216, 216, 0.342);
+}
+.global-btn-b {
+    background-color: #2945FF;
+    border-radius: 25px;
+    padding: 15px 30px;
+    border: none;
+    font-family: Finador;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(100% - 200px);
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+.four-item {
+    width: 30%;
+    text-align: center;
+    box-shadow: 0px 1px 15px rgba(216, 216, 216, 0.342);
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+}
+.four-item img {
+    margin-top: 10px;
+    height: 70px;
+}
+.four-item h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom:0;
+}
+.callto {
+    width: calc(100% - 200px);
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 1px 15px rgba(216, 216, 216, 0.342);
+    border-radius: 20px;
+    padding-top: 70px;
+    padding-bottom: 115px;
+    background-color: white;
+    z-index: 10px;
+}
+.callto h1 {
+    font-size: 50px;
+}
+
+.sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(100% - 200px);
+    margin-left: 100px;
+    margin-top: 90px;
+    margin-bottom: 150px;
+    overflow: hidden;
+    text-align: left;
+}
+.sub img {
+    width: 50%;
+    max-height: 330px;
+    object-fit: fill;
+    border-radius: 20px;
+}
+.sub-words {
+    padding-top: 32px;
+    padding: 16px;
+    margin-bottom: 10px;
+}
+.sub-words h1 {
+    margin-top: 20px !important;
+    margin: 0;
+}
+.sub-words p {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 800px){
+    .four {
+        flex-direction: column;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 100px;
+    }
+    .four-item {
+        width: 90%;
+        margin: auto;
+    }
+    .callto {
+        width: calc(90% - 20px);
+        margin: auto;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .sub {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 90px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .sub img {
+        width: calc(100% - 80px);
+        margin-left: 40px;
+    }
+    .sub-words {
+        padding: 10px;
+        text-align: center;
+    }
+    .sub-words h1 {
+        margin: 0;
+    }
+}

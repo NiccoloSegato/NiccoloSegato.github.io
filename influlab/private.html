@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Lista di influencer - Influlab</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/private.css">
+    <link rel="icon" href="assets/images/favicon.ico">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div class="NavBar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="assets/images/logo.png" alt="Logo" />
+            </a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="influencer.html">INFLUENCER</a></li>
+                <li><a href="mailto:info@influlab.it">CONTATTACI</a></li>
+                <li><a href="login.html">ACCEDI</a></li>
+            </ul>
+        </div>
+        <div class="sandwitch">
+            <div class="container" onclick="toggle(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+        </div>
+    </div>
+    <script src="scripts/navbar.js"></script>
+
+    <div id="sandwitch-menu">
+        <ul>
+            <li><a href="influencer.html"><p>INFLUENCER</p></a></li>
+            <li><a href="mailto:info@influlab.it"><p>CONTATTACI</p></a></li>
+            <li><a href="login.html"><p>LOGIN</p></a></li>
+        </ul>
+    </div>
+
+    <div class="wrapper">
+        <div class="content">
+            <h1>Influencers</h1>
+            <p>Questa è la lista, <u>aggiornata mensilmente</u>, di influencers affiliati con InfluLab.it</p>
+            <p>Si prega di <b>non diffondere</b> queste informazioni in quanto sono soggette alla nostra <a href="privacy.html">politica sulla privacy</a></p>
+
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th onclick="sortTable(1)">Instagram</th>
+                        <th onclick="sortTable(2)">TikTok</th>
+                        <th onclick="sortTable(3)">Categoria</th>
+                        <th onclick="sortTable(4)">Età</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="td-flex">
+                            <img src="assets/images/ibra_ig.jpg" alt="Chaabt Ibrahim">
+                            <p><b>Chaabt Ibrahim</b></p>
+                        </td>
+                        <td><p>117K</p></td>
+                        <td><p>211K</p></td>
+                        <td><p>Spettacolo</p></td>
+                        <td><p>23</p></td>
+                    </tr>
+                    <tr>
+                        <td class="td-flex">
+                            <img src="https://p16-va-tiktok.ibyteimg.com/img/musically-maliva-obj/24f62d67cb4791a32d749236225a0383~c5_720x720.jpeg" alt="Errazi Mohamed">
+                            <p><b>Errazi Mohamed</b></p>
+                        </td>
+                        <td><p>110K</p></td>
+                        <td><p>211K</p></td>
+                        <td><p>Spettacolo</p></td>
+                        <td><p>20</p></td>
+                    </tr>
+                    <tr>
+                        <td class="td-flex">
+                            <img src="https://avatars2.githubusercontent.com/u/25075007?s=460&u=07a6d91d519b9043cf13b537cacce0e553f7a9a7&v=4" alt="Segato Niccolò">
+                            <p><b>Segato Niccolo</b></p>
+                        </td>
+                        <td><p>1K</p></td>
+                        <td><p>211K</p></td>
+                        <td><p>Spettacolo</p></td>
+                        <td><p>20</p></td>
+                    </tr>
+                    <tr>
+                        <td class="td-flex">
+                            <img src="https://smartopic.it/wp-content/uploads/2020/04/Emma-Watson.jpg" alt="Emma Watson">
+                            <p><b>Emma Watson</b></p>
+                        </td>
+                        <td><p>2M</p></td>
+                        <td><p>211K</p></td>
+                        <td><p>Spettacolo</p></td>
+                        <td><p>30</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="scripts/private.js"></script>
+</body>
+</html>

@@ -52,7 +52,7 @@
         <img src="assets/images/like.svg" alt="Like Logo" class="absolute" style="top: 1000px; left: 300px;">
         <img src="assets/images/dollar.svg" alt="Dollar Logo" class="absolute" style="top: 1300px; right: 300px;">
 
-        <div class="main-container">
+        <form class="main-container" id="sign-form">
             <h1>Completa la registrazione</h1>
             <p>Influlab ha a cuore la sicurezza dei suoi utenti. Ecco perché siamo completamente trasparenti nelle modalità di trattamento dei dati. Se vuoi saperne di più, visita la pagina dedicata oppure scrivici una email se hai ulteriori domande.</p>
             <div class="fields">
@@ -96,7 +96,11 @@
                 <div class="field">
                     <p>Followers</p>
                     <div class="divider"></div>
-                    <input type="text" name="ig_followers" placeholder="Inserisci il numero di followers">
+                    <!--<div style="display: flex; flex-direction: row;">-->
+                        <input type="text" name="ig_followers" placeholder="Inserisci il numero di followers">
+                        <!--<input type="button" class="insta-letters" value="K" name="ig_K">
+                        <input type="button" class="insta-letters" value="M" name="ig_M">-->
+                    <!--</div>-->
                 </div>
                 <div class="field">
                     <p>Categoria</p>
@@ -118,7 +122,11 @@
                 <div class="field">
                     <p>Followers</p>
                     <div class="divider"></div>
-                    <input type="text" name="tt_followers" placeholder="Inserisci il numero di followers">
+                    <!--<div style="display: flex; flex-direction: row;">-->
+                        <input type="text" name="tt_followers" placeholder="Inserisci il numero di followers">
+                        <!--<input type="button" class="tt-letters" value="tt_K" name="K">
+                        <input type="button" class="tt-letters" value="tt_M" name="M">-->
+                    <!--</div>-->
                 </div>
                 <div class="field">
                     <p>Categoria</p>
@@ -135,9 +143,10 @@
                 </div>
             </div>
 
-            <a class="global-btn-b" href="confirmation.html">ISCRIVITI</a>
+            <div class="global-btn-b" id="submit-sign">ISCRIVITI</div>
             <p style="margin-top: 30px; margin-bottom: 50px;">Cliccando su ISCRIVITI accetti la nostra <a href="privacy.html">politica sulla privacy</a> e i <a href="termini.html">termini di servizio</a></p>
-        </div>
+        </form>
     </div>
+    <script src="scripts/signup.js"></script>
 </body>
 </html>

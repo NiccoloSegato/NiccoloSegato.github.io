@@ -1,0 +1,47 @@
+.wrapper {
+    margin-top: 150px;
+}
+.content {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.content h1 {
+    font-size: 60px;
+}
+.content table {
+    margin-top: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.301);
+    border-spacing: 0px;
+    overflow: hidden;
+}
+.td-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.td-flex img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 5px;
+    box-shadow: 0px 1px 15px rgba(216, 216, 216, 0.342);
+}
+th {
+    font-size: 18px;
+    padding: 10px;
+}
+thead {
+    background-color: rgba(128, 128, 128, 0.301);
+    border: 1px solid rgba(128, 128, 128, 0.301);
+}
+tr {
+    height: 60px;
+}
+td p {
+    height: 14px;
+    margin-top: 23px;
+}
